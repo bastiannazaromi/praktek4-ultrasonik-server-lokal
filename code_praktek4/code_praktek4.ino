@@ -8,7 +8,7 @@ ESP8266WiFiMulti WiFiMulti;
 HTTPClient http;
 #define USE_SERIAL Serial
 
-String urlSimpan = "http://http://192.168.21.186/praktek4-ultrasonik-server-lokal/data/simpan?jarak=";
+String urlSimpan = "http://192.168.5.7/praktek4-ultrasonik-server-lokal/data/simpan?jarak=";
 
 String respon = "";
 
